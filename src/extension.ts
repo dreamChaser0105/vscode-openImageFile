@@ -6,9 +6,7 @@ import { print } from 'util';
 export function activate(context: ExtensionContext) 
 {
 	let disposable = commands.registerCommand('openImageFile.openFile', () =>{
-		//openImageFile.execute();
-		let hoge = window.visibleTextEditors;	
-		print("hoge");
+		openImageFile.execute();
 	}
 	);
 
